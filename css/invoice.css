@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+   /* display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;*/
+    background: wheat;
+}
+.main-container{
+	margin-top: 20px;
+	position: relative;
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+    border-radius: 8px;
+    overflow: hidden;
+    border-left: 5px solid silver;
+    border-right: 5px solid silver;
+    border-bottom: 2px solid silver;
+    border-top: 2px solid silver;
+    padding: 20px;
+}
+
+.invoice-title{
+	margin-top: 10px;
+	padding: 10px;
+	text-align: center;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	font-size: 20px;
+    background: blue;
+    color: white;
+}
+
+.address-con{
+	display: flex;
+	margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logo{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+span{
+    color: deepskyblue;
+}
+
+.Client-details{
+    font-size: 15px;
+    font-weight: 600;
+}
+.shop-details{
+	float: right;
+	margin-left: 55%;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.line{
+    height: 2px;
+    width: 50%;
+    background: silver;
+    margin-bottom: 10px;
+  
+}
+table{
+    width:  100%;
+    border-top: 2px solid silver;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+table thead tr th{
+    height: 50px;
+    background: whitesmoke;
+    align-items: center;
+    color: rgb(103, 93, 93);
+    border-bottom: 2px solid silver;
+
+}
+table tbody tr td{
+    height: 30px;
+    background: whitesmoke;
+    align-items: center;
+    color: black;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+.visit{
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    height: 20vh;
+    background: black;
+    color: aliceblue;
+    display: flex;
+    padding-left: 60px;
+   
+}
+.mail-head{
+    margin-top: 50px;
+}
+
+.mobile-head{
+    margin-top: 50px;
+}
+.site-address-head{
+    margin-top: 50px;
+}
+.pipe{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.mail, .mobile, .site-address{
+  
+   font-weight: 600;
+}

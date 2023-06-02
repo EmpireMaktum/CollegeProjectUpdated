@@ -1,0 +1,14 @@
+Capstone project pending development--->
+
+1) Reviews **********
+2) images adding
+3) vendor'd active or deactive button for admin **********
+4) random slide of header banners **********
+5) check box for orders list
+6) validation
+7) bill generater **********
+8) state and country automated **********
+9) account verification
+
+Completed development--->
+
